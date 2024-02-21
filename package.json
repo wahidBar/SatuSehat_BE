@@ -1,0 +1,28 @@
+{
+  "name": "agentsatusehat",
+  "version": "1.0.0",
+  "description": "this server interoperability",
+  "main": "index.js",
+  "scripts": {
+    "test": "Hallo I hope You Hapi Every Day",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahidBar/SatuSehat_BE.git"
+  },
+  "author": "Moh. Nur Wahid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahidBar/SatuSehat_BE/issues"
+  },
+  "homepage": "https://github.com/wahidBar/SatuSehat_BE#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "axios": "^1.6.5",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.0",
+    "mongose": "^0.0.2-security"
+  }
+}
