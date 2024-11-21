@@ -1,0 +1,22 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Build output
+dist/
+
+# OS specific files
+.DS_Store
+
+# Database dumps
+*.sql
+
+# Logs
+logs/
+*.log
+
+# Temp files
+*.tmp
+*.swp

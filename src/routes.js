@@ -4,6 +4,9 @@ const {
   loginUserHandler,
   getRumahSakitHandler,
   sendDataToSatuSehatHandler,
+  sendDataBundle2,
+  getMBarangObat,
+  getMBarangObatByID,
 } = require("./handlers");
 
 module.exports = [
@@ -33,4 +36,29 @@ module.exports = [
     //   auth: "jwt",
     // },
   },
+  {
+    method: "POST",
+    path: "/send-data-bundle2",
+    handler: sendDataBundle2,
+    // options: {
+    //   auth: "jwt",
+    // },
+  },
+  {
+    method: "get",
+    path: "/barang-obat",
+    handler: getMBarangObat,
+    // options: {
+    //   auth: "jwt",
+    // },
+  },
+  {
+    method: "get",
+    path: "/barang-obat-id",
+    handler: getMBarangObatByID,
+    // options: {
+    //   auth: "jwt",
+    // },
+  },
+  // getMBarangObatByID
 ];

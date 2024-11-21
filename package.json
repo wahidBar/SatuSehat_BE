@@ -18,11 +18,20 @@
   },
   "homepage": "https://github.com/wahidBar/SatuSehat_BE#readme",
   "dependencies": {
-    "@hapi/hapi": "^21.3.2",
-    "axios": "^1.6.5",
+    "@hapi/boom": "^10.0.1",
+    "@hapi/hapi": "^21.3.9",
+    "@hapi/inert": "^7.1.0",
+    "axios": "^1.7.2",
     "bcrypt": "^5.1.1",
+    "csvtojson": "^2.0.10",
+    "hapi-pino": "^12.1.0",
+    "joi": "^17.13.1",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.1.0",
-    "mongose": "^0.0.2-security"
+    "mongose": "^0.0.2-security",
+    "pg": "^8.11.5",
+    "sql-parser": "^0.5.0",
+    "sql-to-json": "^1.5.0",
+    "zod": "^3.23.8"
   }
 }
